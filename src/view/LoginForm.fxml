@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="LoginContent" prefHeight="400.0" prefWidth="341.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginFormController">
+   <children>
+      <Label layoutX="23.0" layoutY="25.0" prefHeight="53.0" prefWidth="190.0" text="Login">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Label>
+      <JFXTextField labelFloat="true" layoutX="23.0" layoutY="107.0" prefHeight="30.0" prefWidth="292.0" promptText="User Name">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </JFXTextField>
+      <JFXPasswordField layoutX="23.0" layoutY="164.0" prefHeight="25.0" prefWidth="292.0" promptText="Password">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </JFXPasswordField>
+      <JFXButton buttonType="RAISED" layoutX="23.0" layoutY="228.0" onAction="#SignInOnAction" prefHeight="25.0" prefWidth="292.0" style="-fx-background-color: #2980b9;" text="Sign In" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="23.0" layoutY="280.0" onAction="#SignUpOnAction" prefHeight="25.0" prefWidth="292.0" style="-fx-background-color: #34495e;" text="Sign Up" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Separator layoutX="18.0" layoutY="267.0" prefHeight="1.0" prefWidth="308.0" />
+   </children>
+</AnchorPane>

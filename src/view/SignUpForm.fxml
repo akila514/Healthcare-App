@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="SignUpConetnt" prefHeight="400.0" prefWidth="377.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SignUpFormController">
+   <children>
+      <JFXButton layoutX="98.0" layoutY="272.0" onAction="#BackToSignInOnAction" prefHeight="25.0" prefWidth="181.0" text="Back to Sign In" />
+   </children>
+</AnchorPane>
